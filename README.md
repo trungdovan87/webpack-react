@@ -1,1 +1,15 @@
 # webpack-react
+- Run code: 
+  - npm install
+  - npm run dev
+- Build:
+  - npm install -g webpack
+  - webpack
+  - output: dist/bundle.js
+---------------
+- devDependencies:
+  - webpack
+  - webpack-dev-server 
+- package.json:
+  - "dev": "webpack-dev-server"
+- webpack.config.json
