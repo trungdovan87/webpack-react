@@ -9616,6 +9616,12 @@ module.exports = __webpack_require__(18);
 var React = __webpack_require__(82);
 var ReactDOM = __webpack_require__(81);
 
+var url = "http://localhost:8080/pce/app_form_api/rest?cors=true";
+fetch(url).then(function (response) {
+    console.log("response: ", response);
+    return response.json();
+});
+
 var Content = React.createClass({
     displayName: 'Content',
 
@@ -9626,7 +9632,7 @@ var Content = React.createClass({
             React.createElement(
                 'p',
                 null,
-                ' It\'s me'
+                ' It\'s me 22 trung - do'
             ),
             React.createElement(
                 'b',

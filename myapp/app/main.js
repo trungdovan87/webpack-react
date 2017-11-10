@@ -12,7 +12,7 @@ var Content = React.createClass({
     render: function() {
         return (
         <div>
-        	<p> It's me 22 trung - do</p>
+        	<p> It's me 22 trung</p>
             <b>Congratulations</b>, you are now ready to implement your client side application! Enjoy :-)
         </div>
         );
